@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  border: 1px solid black;
+    height: auto;
+    
+}
+.painel {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.painel-text {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 25px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: blue;
+}
+
+h1 {
+  font-family: revert;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+}

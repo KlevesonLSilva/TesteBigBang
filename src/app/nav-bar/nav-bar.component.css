@@ -1,0 +1,76 @@
+.nav-bar {
+  width: 200px;
+  height: 450px;
+  background-color: white;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+i {
+  color: black;
+}
+
+.login {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.login-email{
+  font-size: 10px;
+    font-weight: bold;
+    color: gray;
+}
+

@@ -1,0 +1,47 @@
+/* painel.component.css */
+.container {
+    display: flex;
+    height: 100%;
+  }
+
+  
+  .content {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .tarefas-hoje {
+    width: 200px;
+    
+    padding: 10px;
+    height: 450px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin-top: 5px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }

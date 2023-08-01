@@ -1,0 +1,25 @@
+<div class="nav-bar">
+  <div class="logo">
+    <i class="fa-solid fa-clipboard"></i>
+    <span class="logo-text">Big<strong>Dashboard</strong></span>
+  </div>
+    <ul>
+      <li><a routerLink="/projetos">Painel</a></li>
+      <li><a routerLink="/projetos">Projetos</a></li>
+      <li><a routerLink="/leads">Leads</a></li>
+      <li><a routerLink="/campanhas">Campanhas</a></li>
+      <li><a routerLink="/notificacoes">Notificações</a></li>
+    </ul>
+    <div class="login" (click)="LogoutButton()">
+      <i class="fa-solid fa-user-ninja logo"></i>
+      <a class="login-text">Teste</a>
+      <span class="login-email">teste@teste.com.br</span>
+      <button *ngIf="showLogoutButton" (click)="logout()">Sair</button>
+    </div>
+  </div>
+
+
+
+
+
+  

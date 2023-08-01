@@ -74,3 +74,8 @@ i {
     color: gray;
 }
 
+i:hover {
+  color: white;
+  margin-left: 10px;
+  margin-right: 4px;
+}
